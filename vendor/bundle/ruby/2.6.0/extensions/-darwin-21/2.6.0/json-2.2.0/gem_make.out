@@ -1,0 +1,13 @@
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+/Users/yamashiroyuki/.rbenv/versions/2.6.4/bin/ruby -I /Users/yamashiroyuki/.rbenv/versions/2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20230109-95519-tfl9fb.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+make "DESTDIR=" clean
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/json-2.2.0/ext/json
+make "DESTDIR=" install

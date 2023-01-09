@@ -1,0 +1,27 @@
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+/Users/yamashiroyuki/.rbenv/versions/2.6.4/bin/ruby -I /Users/yamashiroyuki/.rbenv/versions/2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20230109-95519-1wl1kdf.rb extconf.rb
+checking for unistd.h... yes
+checking for linux/aio_abi.h... no
+checking for sys/select.h... yes
+checking for port_event_t in poll.h... no
+checking for sys/epoll.h... no
+checking for sys/event.h... yes
+checking for sys/queue.h... yes
+checking for port_event_t in port.h... no
+checking for sys/resource.h... yes
+creating Makefile
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" clean
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR="
+compiling bytebuffer.c
+compiling monitor.c
+compiling nio4r_ext.c
+compiling selector.c
+linking shared-object nio4r_ext.bundle
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/nio4r-2.5.2/ext/nio4r
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nio4r_ext.bundle ./.gem.20230109-95519-z13hls

@@ -1,0 +1,19 @@
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+/Users/yamashiroyuki/.rbenv/versions/2.6.4/bin/ruby -I /Users/yamashiroyuki/.rbenv/versions/2.6.4/lib/ruby/site_ruby/2.6.0 -r ./siteconf20230109-95519-158821h.rb extconf.rb
+creating Makefile
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" clean
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt_blowfish.c
+clang  -D__SKIP_GNU -I/Users/yamashiroyuki/.rbenv/versions/2.6.4/include  -D_XOPEN_SOURCE -D_DARWIN_C_SOURCE -D_DARWIN_UNLIMITED_SELECT -D_REENTRANT    -c -o x86.o x86.S
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.bundle
+
+current directory: /Users/yamashiroyuki/sample_app_for_rspec/sample_app_for_rspec/vendor/bundle/ruby/2.6.0/gems/bcrypt-3.1.13/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bcrypt_ext.bundle ./.gem.20230109-95519-prhwft
